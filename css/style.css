@@ -135,7 +135,8 @@ overflow-x: hidden
 }
 
 .intro2 img {
-    width: 500px
+    width: 500px;
+    padding: 20px;
 }
 
 
