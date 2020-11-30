@@ -1,8 +1,22 @@
 * {
     margin: 0px;
     padding: 0px;
+
+}
+.clearfix{
+    zoom:1
+}
+html,body{ 
+overflow-x: hidden
 }
 
+.clearfix:after{
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden
+}
 .jumbotron {
     background-image: url(../Assets/banner2.jpg);
     height: 100vh;
@@ -255,7 +269,7 @@
 
     position: relative;
     padding: 30px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), #212121), url(../Assets/banner2.jpg);
+    background-image: linear-gradient(rgba(177, 177, 177, 0.7), #313131), url(../Assets/banner2.jpg);
     background-size: cover;
     background-position: center;
 
