@@ -302,6 +302,7 @@
     }
   
 }
+
 /*BIG TABLET TO 1200PX (WIDTH SMALLER THAN THE 1140 PX ROWS) */
 @media only screen and (max-width:1200px) {
     .jumbotron3 {
@@ -314,15 +315,12 @@
 }
 }
 
-
-
 /*SMALL TABLETS TO BIG TABLETS-IPAD IN LANDSCAPE PHONES(768 TO 1023PX)*/
 @media only screen and (max-width:1023px) {
     .jumbotron3 {
         height: 100vh;
     }
 }
-
 
 /*SMALL PHONES TO SMALL TABLETS (IPAD-PHONES)-481 TO 767PX PIXELS*/
 @media only screen and (max-width:767px) {
@@ -335,10 +333,11 @@
     .ContactForm_Btn {
         width: 50%;
     }
+    
+    .intro2 img {
+        width: 400px
+    }
 }
-
-
-
 
 /*SMALL-PHONES FROM LESS or EQUAL TO 480 PIXEL*/
 @media only screen and (max-width:480px) {
@@ -397,3 +396,9 @@
     }
     }
 
+
+@media only screen and (max-width:320px) { 
+    .intro img {
+        width: 100px
+    }
+}
