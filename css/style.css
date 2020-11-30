@@ -1,0 +1,399 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.jumbotron {
+    background-image: url(../Assets/banner2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0px;
+}
+
+.jumbotron h1 {
+    font-size: 30px;
+    line-height: 1.0;
+
+}
+
+.jumbotron h2 {
+    font-size: 20px;
+    line-height: 1.0;
+}
+
+.Header-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: 1px solid black
+}
+
+.intro {
+    padding-top: 160px
+}
+
+.navbar-nav a {
+    color: black;
+    margin: 0 20px;
+    margin-top: 10px;
+}
+
+.navbar-toggler {
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler .fa {
+    color: black;
+    font-size: 26px;
+
+}
+
+.nav-link:hover {
+    font-size: 600;
+    border-bottom: 1px solid black;
+    margin-bottom: 1px;
+}
+.video-text{
+    font-size: 35px
+}
+
+
+.long_copy {
+    background-color: white;
+    margin-top: 30px;
+}
+
+.long_copy_button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+.Main_GridImage{
+    background-color: black;
+}
+.Main_GridImage_Header{
+ color: white;
+    padding: 20px;
+}
+.GridImage{
+    width: 85%;
+    margin: auto;
+    background-color: white;
+    margin-top: 30px;
+    font-size: 15px;
+
+}
+
+.GridImage1{
+    width: 300px
+}
+.GridImage li{
+    padding: 0px
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+.jumbotron2 {
+    background-image: url(../Assets/call-bg-banner.jpg);
+    height: 100vh;
+    background-size: auto;
+    background-position: center;
+    border-radius: 0px;
+}
+
+.jumbotron2-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: 1px solid black
+}
+
+.intro2 {
+    padding-top: 50px
+}
+
+.intro2 img {
+    width: 500px
+}
+
+
+
+
+.Work-Product {
+    background-color: #ededed;
+
+}
+.Work-Product h3{
+    padding: 20px
+}
+.box {
+  border: 1px solid #ffffff;
+    background-color: white;
+    margin-bottom: 50px;
+    padding: 10px
+}
+
+.box h4 {
+    padding: 10px;
+}
+
+.box p {
+    padding: 5px;
+}
+
+.jumbotron3-button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid black
+}
+
+.Litigation_Support {
+    background-color: black;
+    color: white
+
+}
+.Litigation_Support h3{
+    font-size: 35px;
+    padding: 20px 10px ;
+    
+}
+.Litigation_Support p {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+.Litigation_Support-button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.Security_Cols {
+    background-color: #ededed;
+    margin-bottom: 30px;
+}
+
+.Security_Cols h3 {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.box2 {
+    border: 1px solid #ffffff;
+    background-color: white;
+    margin-bottom: 50px
+}
+
+.box2 img {
+    width: 100px
+}
+
+.box2 p {
+    padding: 10px;
+}
+
+.box2 h4 {
+    padding: 10px;
+}
+
+
+.jumbotron3 {
+    background-image: url(../Assets/laptop2-.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.pricing_box {
+    padding: 00px;
+   
+}
+
+.pricing_box h5 {
+    font-size: 30px;
+    padding: 5px;
+}
+
+.pricing_box p {
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 400;
+}
+
+.pricing_box h6 {
+    font-size: 30px;
+    padding: 5px;
+    font-weight: 500;
+}
+
+.pricing_box li {
+    padding: 5px;
+}
+
+.jumbotron3-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: 1px solid black
+}
+
+.Schedule_Depo {
+
+    position: relative;
+    padding: 30px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), #212121), url(../Assets/banner2.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.Schedule_Depo_Main {
+    max-width: 800px;
+    margin: auto
+}
+
+
+.title {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 3em;
+    line-height: 48px;
+    padding-bottom: 20px;
+    color: White;
+
+}
+
+
+.form_box {
+    padding: 12px
+}
+
+.ContactForm_Btn {
+    background-color: black;
+    color: white;
+    padding: 20px 10px;
+    border-radius: 12px;
+    border: 1px solid black;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 30px;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width:1000px) {
+    .navbar-nav a {
+        margin: 0 20px;
+        margin-top: 00px;
+    }
+  
+}
+/*BIG TABLET TO 1200PX (WIDTH SMALLER THAN THE 1140 PX ROWS) */
+@media only screen and (max-width:1200px) {
+    .jumbotron3 {
+        height: 100vh;
+    }
+    .GridImage{
+    width: 100%;
+    margin: auto;
+   
+}
+}
+
+
+
+/*SMALL TABLETS TO BIG TABLETS-IPAD IN LANDSCAPE PHONES(768 TO 1023PX)*/
+@media only screen and (max-width:1023px) {
+    .jumbotron3 {
+        height: 100vh;
+    }
+}
+
+
+/*SMALL PHONES TO SMALL TABLETS (IPAD-PHONES)-481 TO 767PX PIXELS*/
+@media only screen and (max-width:767px) {
+    .jumbotron3 {
+        height: 100vh;
+    }
+
+
+
+    .ContactForm_Btn {
+        width: 50%;
+    }
+}
+
+
+
+
+/*SMALL-PHONES FROM LESS or EQUAL TO 480 PIXEL*/
+@media only screen and (max-width:480px) {
+    .pricing_box {
+        padding: 10px;
+        margin-top: 30px;
+
+    }
+
+    .pricing_box h5 {
+        font-size: 20px;
+        padding: 0px;
+    }
+
+    .pricing_box p {
+        font-size: 15px;
+        padding: 5px;
+        font-weight: 400;
+    }
+
+    .pricing_box h6 {
+        font-size: 15px;
+        padding: 5px;
+        font-weight: bold;
+    }
+
+    .pricing_box li {
+        padding: 5px;
+    }
+
+    .jumbotron3 {
+        width: 100%;
+
+    }
+
+    .ContactForm_Btn {
+        width: 70%;
+        padding: 10px 10px;
+    }
+
+    .Schedule_Depo_Main {
+        display:
+
+    }
+
+    .title {
+        font-size: 23px;
+    }
+
+    .video-text {
+        font-size: 12px;
+        font-weight: 600
+    }
+ .intro img {
+        width: 300px
+    }
+    }
+
