@@ -3,20 +3,45 @@
     padding: 0px;
 
 }
-.clearfix{
-    zoom:1
-}
-html,body{ 
-overflow-x: hidden
+
+.clearfix {
+    zoom: 1
 }
 
-.clearfix:after{
+html,
+body {
+    overflow-x: hidden;
+
+
+}
+
+h3 {
+
+    font-family: 'PT Serif', serif;
+
+}
+
+h4 {
+    font-family: 'PT Serif', serif;
+}
+
+p {
+    font-family: 'Arvo', serif;
+}
+
+text {
+    font-family: 'Arvo', serif;
+
+}
+
+.clearfix:after {
     content: ".";
     clear: both;
     display: block;
     height: 0;
     visibility: hidden
 }
+
 .jumbotron {
     background-image: url(../Assets/banner2.jpg);
     height: 100vh;
@@ -26,13 +51,15 @@ overflow-x: hidden
 }
 
 .jumbotron h1 {
-    font-size: 30px;
+    font-size: 50px;
     line-height: 1.0;
-
+    font-family: 'DM Serif Text', serif;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: bold
 }
 
 .jumbotron h2 {
-    font-size: 20px;
+    font-size: 30px;
     line-height: 1.0;
 }
 
@@ -45,7 +72,7 @@ overflow-x: hidden
 }
 
 .intro {
-    padding-top: 160px
+    padding-top: 160px;
 }
 
 .navbar-nav a {
@@ -71,7 +98,8 @@ overflow-x: hidden
     border-bottom: 1px solid black;
     margin-bottom: 1px;
 }
-.video-text{
+
+.video-text {
     font-size: 35px
 }
 
@@ -89,14 +117,17 @@ overflow-x: hidden
     border: 1px solid black;
     margin-bottom: 30px;
 }
-.Main_GridImage{
+
+.Main_GridImage {
     background-color: black;
 }
-.Main_GridImage_Header{
- color: white;
+
+.Main_GridImage_Header {
+    color: white;
     padding: 20px;
 }
-.GridImage{
+
+.GridImage {
     width: 85%;
     margin: auto;
     background-color: white;
@@ -105,10 +136,11 @@ overflow-x: hidden
 
 }
 
-.GridImage1{
+.GridImage1 {
     width: 300px
 }
-.GridImage li{
+
+.GridImage li {
     padding: 0px
 }
 
@@ -133,7 +165,9 @@ overflow-x: hidden
 .intro2 {
     padding-top: 50px
 }
-
+.intro2 p{
+    font-size: 20px
+}
 .intro2 img {
     width: 500px;
     padding: 20px;
@@ -146,11 +180,15 @@ overflow-x: hidden
     background-color: #ededed;
 
 }
-.Work-Product h3{
+
+.Work-Product h3 {
     padding: 20px
 }
+.Work-Product h4{
+    font-size: 20px;
+}
 .box {
-  border: 1px solid #ffffff;
+    border: 1px solid #ffffff;
     background-color: white;
     margin-bottom: 50px;
     padding: 10px
@@ -172,21 +210,25 @@ overflow-x: hidden
     border: 1px solid black
 }
 
+/*------------------------------------------------------------------------------------------------------------------*/
 .Litigation_Support {
     background-color: black;
     color: white
+}
+
+.Litigation_Support h3 {
+    font-size: 30px;
+    padding: 10px 10px;
+    
 
 }
-.Litigation_Support h3{
-    font-size: 35px;
-    padding: 20px 10px ;
-    
-}
+
 .Litigation_Support p {
     font-size: 20px;
     font-weight: bold;
     padding: 10px;
 }
+
 .Litigation_Support-button {
     background-color: white;
     color: black;
@@ -196,6 +238,7 @@ overflow-x: hidden
     font-weight: bold;
     margin-bottom: 30px;
 }
+
 .Security_Cols {
     background-color: #ededed;
     margin-bottom: 30px;
@@ -234,7 +277,7 @@ overflow-x: hidden
 
 .pricing_box {
     padding: 00px;
-   
+
 }
 
 .pricing_box h5 {
@@ -270,6 +313,7 @@ overflow-x: hidden
 
     position: relative;
     padding: 30px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(177, 177, 177, 0.7)), to(#313131)), url(../Assets/banner2.jpg);
     background-image: linear-gradient(rgba(177, 177, 177, 0.7), #313131), url(../Assets/banner2.jpg);
     background-size: cover;
     background-position: center;
@@ -309,13 +353,14 @@ overflow-x: hidden
     margin: auto;
     margin-top: 30px;
 }
+
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width:1000px) {
     .navbar-nav a {
         margin: 0 20px;
         margin-top: 00px;
     }
-  
+
 }
 
 /*BIG TABLET TO 1200PX (WIDTH SMALLER THAN THE 1140 PX ROWS) */
@@ -323,11 +368,12 @@ overflow-x: hidden
     .jumbotron3 {
         height: 100vh;
     }
-    .GridImage{
-    width: 100%;
-    margin: auto;
-   
-}
+
+    .GridImage {
+        width: 100%;
+        margin: auto;
+
+    }
 }
 
 /*SMALL TABLETS TO BIG TABLETS-IPAD IN LANDSCAPE PHONES(768 TO 1023PX)*/
@@ -348,7 +394,7 @@ overflow-x: hidden
     .ContactForm_Btn {
         width: 50%;
     }
-    
+
     .intro2 img {
         width: 400px
     }
@@ -358,33 +404,19 @@ overflow-x: hidden
 @media only screen and (max-width:480px) {
     .pricing_box {
         padding: 10px;
-        margin-top: 30px;
+        margin-top: 20px;
+        text-align: center;
 
     }
 
     .pricing_box h5 {
-        font-size: 20px;
+        font-size: 30px;
         padding: 0px;
     }
 
-    .pricing_box p {
-        font-size: 15px;
-        padding: 5px;
-        font-weight: 400;
-    }
-
-    .pricing_box h6 {
-        font-size: 15px;
-        padding: 5px;
-        font-weight: bold;
-    }
-
-    .pricing_box li {
-        padding: 5px;
-    }
 
     .jumbotron3 {
-     background-image: none;
+        background-image: none;
 
     }
 
@@ -393,9 +425,15 @@ overflow-x: hidden
         padding: 10px 10px;
     }
 
-    .Schedule_Depo_Main {
-      
+    .Litigation_Support h3 {
+        font-size: 20px;
+        padding: 20px 10px;
 
+    }
+
+    .Security_Cols h3 {
+        font-size: 25px;
+        padding: 20px;
     }
 
     .title {
@@ -406,15 +444,21 @@ overflow-x: hidden
         font-size: 12px;
         font-weight: 600
     }
- .intro2 img {
-    width: 300px;
-     padding: 10px;
-    }
-    
+
+    .intro2 img {
+        width: 300px;
+        padding: 10px;
     }
 
+    .Work-Product h3 {
+        font-size: 25px;
+        padding: 10px;
 
-@media only screen and (max-width:320px) { 
+    }
+}
+
+
+@media only screen and (max-width:320px) {
     .intro2 img {
         width: 300px
     }
